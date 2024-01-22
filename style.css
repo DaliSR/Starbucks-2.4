@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*forma como vai calcular distacia*/
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding-top: 20px; /*adiciona espaçamento dentro*/
+  padding-right: 20px;
+  padding-left: 20px;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 20px 50px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .conteudo {
+    position: relative;
+    width: 100%; /*largura*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* adiciona espaço entre os itens , alinha na horizontal*/
+    align-items: center; /* alinha na vertical ao centro*/
+    z-index: 2;
+  }
+  .caixa-texto {
+    width: 50%;
+  }
+
+  .caixa-imagem {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* joga item p o lado (final)*/
+    margin-top: 0;
+  }
+  .menu {
+    display: flex;
+    justify-content: center; /*joga item para o centro*/
+  }
+  button {
+    background-color: #017143; /* cor de fundo*/
+    color: #ffffff; /* cor do texto*/
+    border: none; /*sem borda*/
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #018553;
+    box-shadow: 3px 3px 5px rgb(68, 77, 77);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    transition: 1s;
+  }
+  h2 {
+    margin-top: 30%;
+    font-size: 60px; /*tamanho do texto*/
+    font-weight: 500; /*grossura da fonte*/
+  }
+  span {
+    color: #017143;
+    font-size: 70px; /* muda tamanho do texto */
+    font-weight: 900; /* muda a grossura do texto */
+  }
+  p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  footer {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+  }
+  .logo {
+    width: 100px;
+  }
+  .starbucks {
+    margin-top: 20%;
+    width: 340px;
+    z-index: 2; /*define elemento ficar na frente ou atras */
+  }
+  .copo-pequeno {
+    width: 70px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 2;
+  }
+
+  .copo-pequeno:hover {
+    transform: translateY(-35px);
+  }
+
+  .circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 70%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    clip-path: circle(600px at 90% 50%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .circulo {
+    clip-path: circle(600px at right 800px);
+  }
+}
