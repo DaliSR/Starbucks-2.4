@@ -2,6 +2,8 @@
 
 ## Projeto Starbucks 2.4 
 Site fictício criado nas aulas da Missão Programação do ZERO.
+## 🔗 Links
+[site do projeto](https://dalilassr.github.io/Starbucks-2.4/)
 
 
 ## Licença
