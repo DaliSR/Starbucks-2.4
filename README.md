@@ -1,7 +1,7 @@
 
 
 # Projeto Starbucks 2.4 
-## Site fictício criado nas aulas da Missão Programação do ZERO.
+ Site fictício criado nas aulas da Missão Programação do ZERO.
 ## Stack utilizada
 
 **Front-end:** HTML, CSS, Javascript 
