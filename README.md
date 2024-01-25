@@ -2,6 +2,9 @@
 
 # Projeto Starbucks 2.4 
 ## Site fictício criado nas aulas da Missão Programação do ZERO.
+## Stack utilizada
+
+**Front-end:** HTML, CSS, Javascript 
 ## 🔗 Links
 :open_file_folder:[Acesso ao projeto](https://dalilassr.github.io/Starbucks-2.4/)
 
