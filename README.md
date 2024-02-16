@@ -4,7 +4,7 @@
 
  Site fictício criado no evento [**Missão Programação do ZERO**](https://rodolfomori.com.br/missao-programador-do-zero-cv2/)
 
- Como parte do processo de  aprendizagem, me atrevi a modificar alguns estilos e utilizei @media queries para tornar o site responsivo.
+
 
  ## Referências
  
