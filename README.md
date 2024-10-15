@@ -15,7 +15,7 @@
  **Front-end:** HTML, CSS, Javascript 
 
  ## 🔗 Links
- :open_file_folder:[Acesso ao projeto](https://dalilassr.github.io/Starbucks-2.4/)
+ :open_file_folder:[Acesso ao projeto](https://dalisr.github.io/Starbucks-2.4/)
 
 
  ## Licença
